@@ -10,9 +10,9 @@ The visualization leverages p5.js to create a dynamic and expressive representat
 
 1. Word Animation:
 
-->The quote is split into individual words, which are displayed sequentially on the canvas.
+The quote is split into individual words, which are displayed sequentially on the canvas.
 
-->Each word appears at a random position, with a randomized font size and color, emphasizing the unpredictability and chaotic tone of the quote.
+Each word appears at a random position, with a randomized font size and color, emphasizing the unpredictability and chaotic tone of the quote.
 
 2. Dynamic Visuals:
 
