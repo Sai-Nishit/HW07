@@ -1,60 +1,32 @@
-# p5.js Template
+# Quote Visualization
 
-This is a README file that can be used to describe and document your assignment.
+## Chosen Text
+"Wake up to reality. Nothing ever goes as planned in this accursed world. The longer you live, the more you realize that the only things that truly exist in this reality are merely pain, suffering and futility."
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+This quote is from the anime Naruto, spoken by the character Madara Uchiha. It reflects the harsh realities of life and the inevitable struggles that come with it.
 
----
----
+## Animation Strategy
+The visualization leverages p5.js to create a dynamic and expressive representation of the quote:
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
+1. Word Animation:
 
-**bold text**
+->The quote is split into individual words, which are displayed sequentially on the canvas.
+->Each word appears at a random position, with a randomized font size and color, emphasizing the unpredictability and chaotic tone of the quote.
 
-*italicized text*
+2. Dynamic Visuals:
 
-~~strikethrough text~~
+A fading background effect is applied using semi-transparency (background(0, 20)), which creates a continuous flow of words while maintaining a transient trail.
 
-Ordered List:
-1. First item
-2. Second item
-3. Third item
+3. Color and Motion:
 
-Unordered List:
-- First item
-- Second item
-- Third item
+The words are styled with colors that dynamically change between shades of red, pink, and purple, symbolizing the emotional intensity of the quote.
+The positioning and size variation convey the chaotic and unpredictable nature of the world described in the quote.
 
-`short code block`
+4. Repetition:
 
-```
-extended code block
-fun() {
-  return 0
-}
-```
+Once all the words are displayed, the animation loops, reinforcing the repetitive nature of life's struggles as implied by the quote.
 
-Link:  
-[linked text](https://www.example.com)
+The animation dynamically displays words from the quote in a chaotic and colorful style.
 
-
-Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+## Inspiration
+The visualization is inspired by the themes of chaos, inevitability, and suffering in the quote. The use of randomized motion and colors aims to immerse viewers in the emotional depth of the text.
